@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    margin: auto;
+    align-items:center ;
+    justify-content: center;
+}
+.card{
+    padding: 25px 12px;
+    margin: 25px 12px;
+    background-color: seashell;
+    box-shadow: 6px 6px skyblue;
+}
+.card-top{
+    box-shadow: -6px -6px 10px skyblue;
+}

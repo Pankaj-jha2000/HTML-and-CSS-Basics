@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="demo.css">
+<title>Pizza Base Selection</title>
+</head>
+<body>
+  <div class="pizza-container">
+    <div class="empty-circle" id="drop-area">
+      <p>Drop pizza base here</p>
+    </div>
+    <div class="pizza-options">
+        <div class="pizza-base" draggable="true" id="thin-crust">
+            <div class="crust-image"><img src="thin-crust.png" alt="Thin Crust"></div>
+            <div class="crust-name">Thin Crust</div>
+          </div>
+          <div class="pizza-base" draggable="true" id="thick-crust">
+            <div class="crust-image"><img src="thick-crust.png" alt="Thick Crust"></div>
+            <div class="crust-name">Thick Crust</div>
+          </div>
+          
+    </div>
+    <div class="ingredient-list">
+        <div class="ingredient-option" draggable="true" id="Pepperoni">Pepperoni</div>
+        <div class="ingredient-option" draggable="true" id="Mushrooms">Mushrooms</div>
+        <div class="ingredient-option" draggable="true" id="Olives">Olives</div>
+      </div>
+      
+  
+  <script src="demo.js"></script>
+</body>
+</html>

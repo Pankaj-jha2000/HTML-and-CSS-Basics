@@ -1,0 +1,13 @@
+Techniques to make website responsive
+-------------------------------
+1.Set the view port at page level
+<meta name="viewport" content="width=device-width,intial-scale=1.0">
+
+2.always use max-height/max-width
+
+3.use css media queries 
+
+if my device is this then apply that style 
+if my device width is between 600-700 than apply that style.
+
+4.use units like rem/vh/vw instead of pixels

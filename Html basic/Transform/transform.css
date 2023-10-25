@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.container{
+    background-color: indigo;
+    color: white;
+    height: 100vb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: greenyellow;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    transition: all 1s ease-in-out;
+    
+}
+.box:hover{
+    /*transform: rotate(360deg);*/
+    /* transform: skew(45deg);*/
+    /*transform: scale(2);*/
+   /* transform: translate(100px);*/
+   transform: translate(100px,100px);
+}
