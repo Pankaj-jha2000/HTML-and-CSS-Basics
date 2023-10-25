@@ -1,0 +1,33 @@
+.item{
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    display: none;
+}
+/*0px to 300px width apply below rules*/
+@media(max-width:300px){
+    #item-1{
+        display: block;
+    }
+}
+@media(min-width:300px) and (max-width:500px){
+    
+    #item-2{
+        display: block;
+        background-color: rgb(132,165,42);
+    }
+    
+}
+@media(min-width:300px) and (max-width:800px){
+    #item-3{
+        display: block;
+        background-color: rgb(42,147,165);
+    }
+}
+@media(min-width:800px){
+    #item-4{
+        display: block;
+        background-color: rgb(76, 221, 132);
+    }
+}
